@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="rBlock" />
 
-    <div style={{text-align:"center",vertical-align:"middle", height:"500px", margin-bottom:"20px"}}>
+    <div style={{text-align:`center`,vertical-align:`middle`, height:`500px`, margin-bottom:`20px`}}>
     <StaticImage
       src="../images/videographic.png"
       quality={95}
