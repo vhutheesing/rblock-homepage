@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="rBlock" />
-    <div style={{background:#f5f5f5;height:110px;}}>
+    <div style={{background:"#f5f5f5", height:"110px"}}>
       
     </div>
     <StaticImage
