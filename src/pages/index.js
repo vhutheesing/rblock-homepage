@@ -15,8 +15,8 @@ const IndexPage = () => (
         <iframe width="560" height="315" src="https://www.youtube.com/embed/7osa7cmI2MY?rel=0" frameborder="0" allowfullscreen=""></iframe>
 
     </div>
-     <div style={{textAlign:`center`, margin:`10px`}}>rBlock is a private, location-based communication network for residents.
-Its mission is to enable greater reach for the communications you send and greater relevance for the ones you receive.</div>
+     <div style={{textAlign:`center`, margin:`10px`}}>rBlock was a private, location-based communication network for residents.
+Its mission was to enable greater reach for the communications you send and greater relevance for the ones you receive.</div>
 
 
   </Layout>
