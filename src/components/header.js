@@ -25,12 +25,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-         <StaticImage
-      src="../images/rblock_logo_225x75.png"
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="rBlock logo"
-    />
+         <img src="../images/rblock_logo_225x75.png" alt="rBlock logo"/>
         </Link>
       </h1>
     </div>
