@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="rBlock" />
 
-    <div>
+    <div  style={{textAlign:`center`,verticalAlign:`middle`, height:`500px`, marginBottom:`20px`}}>
     <StaticImage
       src="../images/videographic.png"
       quality={95}
@@ -18,7 +18,7 @@ const IndexPage = () => (
       alt="Video"
     />
     </div>
-     <div style={{text-align:`center`, margin:`10px`}}>rBlock is a private, location-based communication network for residents.
+     <div style={{textAlign:`center`, margin:`10px`}}>rBlock is a private, location-based communication network for residents.
 Its mission is to enable greater reach for the communications you send and greater relevance for the ones you receive.</div>
 
 
