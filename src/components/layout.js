@@ -35,13 +35,18 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+            <div className={`pgFoo`}> 
+                <div className={`fooLft`}> 
+                  <a href="aboutus.html" target="_blank">About Us</a>
+                  <a href="/benefits.html" target="_blank">Benefits</a>
+                  <a href="/blog.html" target="_blank">Blog</a>
+                  <a href="/FAQ.html" target="_blank">FAQ</a>
+                  <a href="/privacypolicy.html" target="_blank">Privacy Policy</a>
+                  <a href="/siteterms.html" target="_blank">Site Terms</a> 
+              </div> 
+               <div className={`fooRht`}> Copyright © 2012 rBlock Inc. All rights reserved. </div> <div className={`clr`}></div> 
+              </div>
+
         </footer>
       </div>
     </>
