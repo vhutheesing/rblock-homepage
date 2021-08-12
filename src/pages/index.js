@@ -12,12 +12,10 @@ const IndexPage = () => (
 
     <div style={{text-align:"center",vertical-align:"middle", height:"500px", margin-bottom:"20px"}}>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
+      src="../images/videographic.png"
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
+      alt="Video"
     />
     <div>
      <div style={{text-align:"center", margin:"10px"}}>rBlock is a private, location-based communication network for residents.
