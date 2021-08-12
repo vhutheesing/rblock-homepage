@@ -11,12 +11,6 @@ const IndexPage = () => (
     <Seo title="rBlock" />
 
     <div  style={{textAlign:`center`,verticalAlign:`middle`, marginBottom:`20px`}}>
-    <StaticImage
-      src="../images/videographic.png"
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="Video"
-    />
         
         <iframe width="560" height="315" src="https://www.youtube.com/embed/7osa7cmI2MY?rel=0" frameborder="0" allowfullscreen=""></iframe>
 
