@@ -5,8 +5,9 @@ import { Link } from "gatsby"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#f5f5f5`,
       marginBottom: `1.45rem`,
+      height:'110px'
     }}
   >
     <div
@@ -24,7 +25,12 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+         <StaticImage
+      src="../images/rblock_logo_225x75.png",
+      quality={95}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="rBlock"
+    />
         </Link>
       </h1>
     </div>
