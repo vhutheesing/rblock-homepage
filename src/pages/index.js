@@ -5,10 +5,12 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+
 const IndexPage = () => (
   <Layout>
     <Seo title="rBlock" />
 
+    <div style={{text-align:"center",vertical-align:"middle", height:"500px", margin-bottom:"20px"}}>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
@@ -17,10 +19,11 @@ const IndexPage = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    <div>
+     <div style={{text-align:"center", margin:"10px"}}>rBlock is a private, location-based communication network for residents.
+Its mission is to enable greater reach for the communications you send and greater relevance for the ones you receive.</div>
+
+
   </Layout>
 )
 
