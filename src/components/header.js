@@ -1,6 +1,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import { Link, StaticImage } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -25,7 +25,12 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-         <img src="../images/rblock_logo_225x75.png" alt="rBlock logo"/>
+         <StaticImage
+      src="../images/rblock_logo_225x75.png"
+      quality={95}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="rBlock logo"
+    />
         </Link>
       </h1>
     </div>
