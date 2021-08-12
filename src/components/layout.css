@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: arial, georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -605,7 +605,6 @@ pre tt:after {
 
 .pgFoo {
     padding: 11px 0;
-    color: #fff;
     font-size: 1.077em;
     height: 100%;
 }
