@@ -595,3 +595,32 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.pgFoo {
+    padding: 11px 0;
+    color: #fff;
+    font-size: 1.077em;
+    height: 100%;
+} 
+
+.pgFoo {
+    padding: 11px 0;
+    color: #fff;
+    font-size: 1.077em;
+    height: 100%;
+}
+
+.fooLft {
+    float: left;
+}
+
+.fooRht {
+    float: right;
+}
+
+.clr {
+    clear: both;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
