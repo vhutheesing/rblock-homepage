@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         <footer>
             <div className={`pgFoo`}> 
               <div style={{marginBottom:`20px`, textAlign:`center`}}><a href="https://vivekhutheesing.com" targer="_blank">Vivek Hutheesing</a></div>
-               <div style={{textAlign:'center'}}> Copyright © 2021 rBlock Inc. All rights reserved. </div> <div className={`clr`}></div> 
+               <div style={{textAlign:'center', fontSize:`1rem`}}> Copyright © 2021 rBlock Inc. All rights reserved. </div> <div className={`clr`}></div> 
             </div>
 
         </footer>
