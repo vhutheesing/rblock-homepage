@@ -12,7 +12,7 @@ const IndexPage = () => (
 
     <div  style={{textAlign:`center`,verticalAlign:`middle`, marginBottom:`20px`}}>
         
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7osa7cmI2MY?rel=0" frameborder="0" allowfullscreen=""></iframe>
+        <iframe id="iframe_video" src="https://www.youtube.com/embed/7osa7cmI2MY?rel=0" frameborder="0" allowfullscreen=""></iframe>
 
     </div>
      <div style={{textAlign:`center`, margin:`10px`}}>rBlock was a private, location-based communication network for residents.
